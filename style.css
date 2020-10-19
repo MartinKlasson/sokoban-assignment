@@ -1,0 +1,150 @@
+/* body{
+    background-color: grey;
+    position: relative;
+} */
+
+.button{
+border: none;
+color: lavender;
+padding: 15px 30px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.buttonstart{
+    background-color: green;  
+}
+
+.buttonreload{
+    background-color: rgb(13, 90, 116);
+}
+
+.button-block{
+    position: relative;
+    display: block;
+    float: left;
+    top: 50px;
+    margin-left: 15px;
+}
+
+.information{
+    color: rgb(41, 48, 30);
+    font-size: 24px;
+    white-space: normal;
+}
+
+ul>li{
+    width: 500px;
+    position: relative;
+    display: block;
+    margin: 6px 0;
+}
+
+#board{
+    width: 912px;
+    height: 768px;
+    background-color: #705f5f;
+    position: relative;
+    float: right;
+    right: 20px;
+}
+
+.hidden{
+    font-size: 80px;
+    color: rgb(112, 16, 16);
+    border: 2px solid black;
+    display: none;
+    position: absolute;
+    margin: 300;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.wall{
+    width: 48px;
+    height: 48px;
+    background-image: url("backgroundPictures/wall.PNG");
+    position: relative;
+    display: inline-block;
+
+}
+
+.movableBlock{
+    width: 48px;
+    height: 48px;
+    background-image: url("backgroundPictures/block.PNG");
+    position: relative;
+    display: inline-block;
+}
+
+.openBox{
+    width: 48px;
+    height: 48px;
+    background-image: url("backgroundPictures/openBox.PNG");
+    position: relative;
+    display: inline-block;
+}
+
+.player{
+    width: 48px;
+    height: 48px;
+    background-image: url("backgroundPictures/player.PNG");
+    position: relative;
+    display: inline-block;
+}
+
+.gameEnded{
+    width: 48px;
+    height: 48px;
+    background-image: url("backgroundPictures/winner.PNG");
+    position: relative;
+    display: inline-block;
+}
+.goalArea{
+    width: 48px;
+    height: 48px;
+    background-image: url("backgroundPictures/goal.PNG");
+    position: relative;
+    display: inline-block;
+}
+
+.winner{
+    width: 48px;
+    height: 48px;
+    background-image: url("backgroundPictures/winner.PNG");
+    position: relative;
+    display: inline-block;
+}
+
+.emptyArea{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    display: inline-block;
+    /* background-image: url("backgroundPictures/empty.PNG"); */
+    background-image: url("backgroundPictures/grass.jpg");
+}
+
+.ship{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    display: inline-block;
+    /* background-image: url("backgroundPictures/empty.PNG"); */
+    background-image: url("backgroundPictures/ship1.jpg");
+}
+
+.ocean{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    display: inline-block;
+    /* background-image: url("backgroundPictures/empty.PNG"); */
+    background-image: url("backgroundPictures/ocean.jpg");
+}

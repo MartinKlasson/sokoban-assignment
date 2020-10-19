@@ -2,18 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sokoban Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sokoban Assignment</title>   
+    <link rel= "stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header style="color: green; font-size: 40px;">
     <h1>Sokoban Game</h1>
     </header>
+    <div class="button-block">
 
-    <script src=sokobanBaseFile.js></script>
-    <script src=sokoban.js></script>       
+        <ul>
+            <li>
+                <div class="information">
+                    Press "START" to load a game.
+                    <br>
+                </div>
+            </li>
+
+            <li>
+                <button class="button buttonstart" id="button-start">START</button>
+            </li>
+
+            <li>
+                <div class="information">
+                    <br>
+                    Press "RELOAD" to start a new game.
+                    <br>
+                </div>
+            </li>
+
+            <li>
+                <button class="button buttonreload" id="button-reload">RELOAD</button>
+            </li>
+
+            <li>
+                <div class="information">
+                    <br>
+                    NOTICE!
+                    <br>
+                    - Use arrow keys  
+                    <img src="backgroundPictures/arrowKeys.png" alt="Arrow keys pic">
+                      to move the captain. 
+                    <img src="backgroundPictures/player.PNG" alt="Captain pic">.
+                    <br>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div id = "board"></div>
+    <div class="hidden">WINNER!!!!</div>
+    <script src="sokobanBaseFile.js"></script>
+    <script src="index.js"></script>
+           
 </body>
-
+</html>
 
 
